@@ -1,5 +1,5 @@
 const eras=['선사 · 고조선','삼국 · 남북국','고려','조선','개항 · 대한제국','일제강점기','현대'];
-const eraImages=['assets/era-prehistory.png','assets/era-three-kingdoms.png','assets/era-goryeo.png','assets/era-joseon.png','assets/era-opening.png','assets/era-colonial.png','assets/era-modern.png'];
+const eraImages=['assets/era-prehistory.webp','assets/era-three-kingdoms.webp','assets/era-goryeo.webp','assets/era-joseon.webp','assets/era-opening.webp','assets/era-colonial.webp','assets/era-modern.webp'];
 const icons=['선사','삼국','고려','조선','개항','일제','현대'];
 const raw=[
 `-700000|약 70만 년 전|구석기 시대|사람들은 무리를 지어 이동하며 살았어요. 돌을 깨뜨린 뗀석기로 사냥하고 열매를 모았어요.
