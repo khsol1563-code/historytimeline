@@ -1,0 +1,25 @@
+const china='https://static.artmuseum.princeton.edu/asian-art/china/timeline';
+const worlds=[
+[-3200,'기원전 3200년경','메소포타미아의 문자','서아시아','사람들은 물건의 수와 거래를 기록하면서 초기 문자를 사용했어요. 기록은 먼 옛날 사람들의 삶을 알려 줘요.','https://www.metmuseum.org/es/essays/the-origins-of-writing'],
+[-221,'기원전 221년','진의 중국 통일','동아시아','진시황이 여러 나라를 통일했어요. 글자와 도량형을 맞추며 나라를 다스렸어요.',china],
+[618,'618년','당 건국','동아시아','당은 동아시아 여러 나라와 문화를 주고받았어요. 신라 사람들도 당으로 유학을 갔어요.',china],
+[622,'622년','히즈라','서아시아','무함마드가 메카에서 메디나로 이주했어요. 이 해는 이슬람력의 출발점이 되었어요.','https://www.metmuseum.org/ja/essays/the-birth-of-islam'],
+[651,'651년','사산 왕조 멸망','서아시아','이란 지역의 사산 왕조가 무너졌어요. 이후 이 지역에도 이슬람 문화가 널리 퍼졌어요.','https://82nd-and-fifth.metmuseum.org/toah/ht/06/wai.html'],
+[661,'661년','우마이야 왕조 성립','서아시아','다마스쿠스를 중심으로 새로운 이슬람 왕조가 세워졌어요. 신라가 삼국을 통일한 676년에는 이 왕조가 넓은 지역을 다스리고 있었어요.','https://www.metmuseum.org/fr/toah/ht/06/wap.html'],
+[960,'960년','송 건국','동아시아','송에서는 도시와 상업이 발달했어요. 고려와도 물건과 문화를 주고받았어요.',china],
+[1206,'1206년','몽골 제국의 시작','중앙아시아','칭기즈 칸이 몽골 세력을 하나로 모았어요. 몽골 제국은 이후 유라시아로 크게 넓어졌어요.','https://www.metmuseum.org/ja/toah/ht/07/nc'],
+[1271,'1271년','원의 국호 사용','동아시아','쿠빌라이가 나라 이름을 원으로 정했어요. 몽골 지배 아래 여러 지역의 교류가 활발해졌어요.','https://www.metmuseum.org/ja/toah/ht/07/nc'],
+[1368,'1368년','명 건국','동아시아','중국에서 명이 세워졌어요. 뒤에 조선과 외교 관계를 맺은 나라예요.',china],
+[1492,'1492년','콜럼버스의 아메리카 도착','아메리카','콜럼버스가 대서양을 건너 아메리카에 도착했어요. 그곳에는 이미 원주민들이 살고 있었어요. 이후 유럽의 식민 지배가 확대되었어요.','https://blogs.loc.gov/loc/2016/07/how-did-america-get-its-name/'],
+[1644,'1644년','청의 베이징 입성','동아시아','청이 베이징에 들어가 중국 지배를 넓혔어요. 청의 건국은 병자호란이 일어난 1636년이에요.',china],
+[1776,'1776년','미국 독립 선언','아메리카','북아메리카의 13개 식민지가 영국으로부터 독립하겠다고 선언했어요. 조선에 규장각이 세워진 해와 같아요.','https://www.archives.gov/milestone-documents/declaration-of-independence'],
+[1789,'1789년','프랑스 혁명','유럽','프랑스 사람들이 낡은 신분 질서에 맞섰어요. 자유와 평등에 대한 생각이 널리 퍼졌어요.','https://www.chateauversailles.fr/decouvrir/histoire/les-grandes-dates/versailles-au-coeur-revolution-francaise'],
+[1868,'1868년','메이지 유신','동아시아','일본에서 새 정부가 들어서고 큰 개혁이 시작되었어요. 정치와 산업, 교육 제도가 바뀌었어요.','https://resources.metmuseum.org/resources/metpublications/pdf/Early_Collectors_of_Japanese_Prints_and_The_Met_The_Metropolitan_Museum_Journal_v_17_1982.pdf'],
+[1939,'1939년','제2차 세계대전 시작','세계','큰 전쟁이 여러 대륙으로 번졌어요. 수많은 사람의 삶이 파괴되었어요.','https://wmr.iwm.org.uk/war/second-world-war-1939-1945'],
+[1945,'1945년','제2차 세계대전의 끝','세계','독일과 일본이 항복하며 전쟁이 끝났어요. 한국은 일본의 식민 지배에서 벗어났어요.','https://www.archives.gov/milestone-documents/list'],
+[1945.1024,'1945년 10월 24일','국제연합 출범','세계','여러 나라가 전쟁을 막고 평화를 지키려고 국제연합을 만들었어요. UN이라고도 불러요.','https://www.un.org/en/about-us/history-of-the-un'],
+[1948.1210,'1948년 12월 10일','세계 인권 선언','세계','모든 사람이 존엄하고 동등한 권리를 가진다는 약속을 세계에 알렸어요.','https://www.un.org/en/about-us/udhr/history-of-the-declaration'],
+[1960,'1960년','식민 지배 종식 선언','세계','국제연합은 식민 지배를 끝내고 사람들이 스스로 미래를 결정해야 한다고 선언했어요.','https://www.un.org/en/UN80'],
+[1989.1109,'1989년 11월 9일','베를린 장벽 개방','유럽','동서 베를린을 가르던 장벽의 통행이 열렸어요. 독일 통일은 다음 해인 1990년에 이루어졌어요.','https://www.berlin.de/landesdenkmalamt/denkmale/highlight-berliner-mauer/mauer-denkmale/bornholmer-strasse-649637.en.php'],
+[2015,'2015년','파리 기후 협정','세계 · 확장 탐험','여러 나라가 지구 온난화를 줄이기 위해 함께 노력하기로 약속했어요. 환경 문제는 함께 풀어야 할 과제예요.','https://www.un.org/en/UN80']
+].map(([year,date,title,region,desc,source])=>({year,date,title,region,desc,source}));
